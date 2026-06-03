@@ -60,7 +60,7 @@ To expose why a logistics variable outranks core conversion drivers, the framewo
 
 > <img width="1800" height="1500" alt="shadow" src="https://github.com/user-attachments/assets/1f15783c-ddb9-4f5f-b921-4eb52403eee2" />
 
-> *Locate this plot immediately under this section. This visualization graphs the SHAP scatter plot where fulfillment latency shifts from a stable neutral state to a sharp vertical drop, exposing the precise localized breaking point in visibility.*
+> *This visualization graphs the SHAP scatter plot where fulfillment latency shifts from a stable neutral state to a sharp vertical drop, exposing the precise localized breaking point in visibility.*
 
 Between 0 and 48 hours, logistics delays maintain a stable, near-zero or positive contribution to visibility logs. The exact moment fulfillment latencies exceed the 48-hour threshold, the Shapley values experience a severe, discontinuous vertical drop down to deep negative territory (ranging from -0.1 to -0.4), capturing a non-linear drop-dead policy filter.
 
@@ -88,8 +88,8 @@ empirical p-value profile: 0.0000e+00
 
 The global population displacement is illustrated through the system density profiles:
 
-> **[INSERT FILE HERE: `data/discovered_change_point_audit.png`]**
-> *Locate this distribution histogram at the bottom of the empirical section. This visualization explicitly illustrates the systemic population separation between compliant and penalized ranking regimes.*
+<img width="2700" height="1500" alt="8cdb72f4-e5e8-4224-aa4d-65ac0153dd65" src="https://github.com/user-attachments/assets/064b902a-c423-488a-ac73-50fbd07e2313" />
+>  This visualization explicitly illustrates the systemic population separation between compliant and penalized ranking regimes.*
 
 * **Compliant Allocation Regime ($\le 48\text{h}$, Blue):** Concentrates uniformly inside premium, low-index ranking real estate, dominating organic visibility brackets.
 * **Penalized Allocation Regime ($> 48\text{h}$, Red):** Suffers a wholesale structural displacement, compressing marginalized merchants entirely out of search visibility and piling them heavily into the lowest exposure brackets ($6,000$ to $12,000$).
