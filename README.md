@@ -58,7 +58,8 @@ Global feature importances reveal a significant analytics paradox: while `histor
 
 To expose why a logistics variable outranks core conversion drivers, the framework uses SHAP (SHapley Additive exPlanations) to isolate point-by-point feature attributions.
 
-> **[INSERT FILE HERE: `data/shadow_threshold_audit.png`]**
+> <img width="1800" height="1500" alt="shadow" src="https://github.com/user-attachments/assets/1f15783c-ddb9-4f5f-b921-4eb52403eee2" />
+
 > *Locate this plot immediately under this section. This visualization graphs the SHAP scatter plot where fulfillment latency shifts from a stable neutral state to a sharp vertical drop, exposing the precise localized breaking point in visibility.*
 
 Between 0 and 48 hours, logistics delays maintain a stable, near-zero or positive contribution to visibility logs. The exact moment fulfillment latencies exceed the 48-hour threshold, the Shapley values experience a severe, discontinuous vertical drop down to deep negative territory (ranging from -0.1 to -0.4), capturing a non-linear drop-dead policy filter.
