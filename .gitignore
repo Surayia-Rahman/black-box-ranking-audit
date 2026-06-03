@@ -1,0 +1,12 @@
+# bytecode compilation caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# local execution sandbox metrics
+.pytest_cache/
+.ipynb_checkpoints/
+
+# large relational database persistence files (optional to ignore, mirror builds on run)
+# shadow_ranking_project/data/marketplace_data.db
