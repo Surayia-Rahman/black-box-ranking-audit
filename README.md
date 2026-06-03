@@ -31,8 +31,11 @@ shadow_ranking_project/
 └── discover_threshold.py               # automated change-point discovery engine
 
 ```
-
+```
+The shadow_ranking.py shows the entire formation of the project. This was originally done on Google Colab
+```
 ---
+
 
 ## 📊 Analytics Engineering Strategy
 
